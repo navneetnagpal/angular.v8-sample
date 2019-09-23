@@ -1,0 +1,21 @@
+.heroes {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  li {
+    border-radius: 4px;
+    &.selected {
+      background: #c4ffd5;
+    }
+    margin: 0;
+    padding: 5px 5px 5px 0;
+    cursor: pointer;
+    .badge {
+      background: #004ab8;
+      color: #fff;
+      padding: 4px;
+      border-radius: 4px;
+    }
+  }
+}
