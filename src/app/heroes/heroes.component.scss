@@ -1,9 +1,17 @@
 .heroes {
+  font-family: Arial;
   list-style: none;
   margin: 0;
   padding: 0;
   display: inline-block;
   li {
+    a {
+      color:rgb(31, 53, 87);
+      text-decoration: none;
+      &:visited {
+        color:rgb(31, 53, 87);
+      }
+    }
     border-radius: 4px;
     &.selected {
       background: #c4ffd5;
